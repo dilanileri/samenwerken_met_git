@@ -100,11 +100,10 @@ body {
 
 .about h3 {
   font-size: 50px;
-  border-top: 10px solid var(--green);
 }
 
 .about .logo {
-  font-size: 80px;
+  font-size: 100px;
 }
 
 .about {
@@ -113,4 +112,20 @@ body {
 
 .about .be {
   font-weight: 700;
+}
+
+.about .logo {
+  position: relative;
+}
+
+.about .logo::before {
+  content: '';
+  position: absolute;
+  top: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  height: 15px;
+  background-color: var(--green);
+  z-index: 1;
 }
