@@ -84,8 +84,11 @@ body {
 }
 
 /* Enes Service - begin */
-.services .container {
+
+.services {
   background-color: var(--bg);
+}
+.services .container {
   padding: 80px;
   padding-left: 150px;
 }
