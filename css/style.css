@@ -118,15 +118,7 @@ body {
 }
 
 .hero {
-    background: linear-gradient(to right,
-            rgba(0, 0, 0, 0.8) 0%,
-            rgba(0, 0, 0, 0.8) 50%,
-            rgba(6, 249, 183, 0.6) 50%,
-            #06f9b799 100%),
-        url("../images/hero-img.avif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    position: relative;
     height: 600px;
     width: auto;
 
@@ -139,14 +131,13 @@ body {
 .hero h1 {
     font-size: 3rem;
     font-weight: 800;
-    line-height: 1.2;
-    /* padding-left: 200px; */
     color: rgb(51, 51, 51);
+
 }
 
 .hero .titel-links {
     color: var(--bg);
-    margin-right: 45px;
+    margin: 30px;
 }
 
 .hero .portfolio-btn {
@@ -156,6 +147,7 @@ body {
 }
 
 .nav {
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -165,7 +157,7 @@ body {
 }
 
 .nav-rechts a {
-    margin: 18px;
+    margin: 20px;
     color: black;
 }
 
@@ -199,4 +191,38 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+
+.hero-ux {
+    position: absolute;
+    top: 83%;
+    right: 40px;
+
+    font-size: 6rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+
+    color: var(--bg);
+
+}
+
+.hero-ux p {
+    margin: 0;
+}
+
+.ux-punt {
+    color: rgb(51, 51, 51);
+}
+
+.hero-lijn {
+    position: absolute;
+    left: 0;
+    top: 80%;
+    width: 2px;
+    height: 170px;
+    /* dikte van de lijn */
+    background-color: var(--green);
+    margin: 20px 0;
+    /* ruimte erboven en eronder */
 }
