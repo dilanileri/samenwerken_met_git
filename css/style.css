@@ -31,7 +31,7 @@ body {
 /* LARGE SCHERMEN - LG */
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1000px;
   }
 
   .col-lg-1 {
@@ -89,29 +89,29 @@ body {
   background-color: var(--bg);
 }
 .services .container {
-  padding: 80px;
-  padding-left: 150px;
+  padding: 80px 0;
 }
 
 .services .lijn {
   position: absolute;
   width: 2px;
-  height: 180px;
+  height: 170px;
   background-color: var(--green);
 }
 
 .services .lijn.links {
-  left: 650px;
-  top: 565px;
+  left: 710px;
+  top: 560px;
 }
 
 .services .lijn.rechts {
-  right: 650px;
+  right: 130px;
   top: -80px;
 }
 
 .services .hoofdtitel {
   font-size: 60px;
+  margin: 0;
 }
 
 .services .hoofdtitel span {
@@ -167,7 +167,70 @@ body {
 
 /* Enes Portfolio - begin */
 
+.portfolio .col-lg-12 {
+  text-align: left;
+  max-width: 760px;
+  padding: 80px 0;
+}
+
+.portfolio .hoofdtitel {
+  font-size: 60px;
+  margin: 0;
+}
+
+.portfolio .hoofdtitel span {
+  color: var(--green);
+}
+
+.portfolio .col-lg-12 .p {
+  margin-bottom: 0;
+}
+
+.portfolio-links a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 600;
+  margin-right: 35px;
+}
+
+.portfolio-links {
+  margin-top: 35px;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
 }
+.portfolio .blok {
+  position: relative;
+  height: 400px;
+  margin: 0;
+}
+
+.portfolio .images .row {
+  margin-bottom: 80px;
+}
+
+.portfolio .blok img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  display: block;
+}
+
+.portfolio .blok::after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -90px;
+  height: 90px;
+  background-color: var(--green);
+  transition: 0.4s ease;
+  z-index: 1;
+}
+
+.portfolio .row {
+  grid-gap: 0;
+}
+
+/* Enes Portfolio - einde */
