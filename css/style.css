@@ -31,7 +31,7 @@ body {
 /* LARGE SCHERMEN - LG */
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1000px;
   }
 
   .col-lg-1 {
@@ -83,6 +83,62 @@ body {
   }
 }
 
+.about .green {
+  color: var(--green);
+}
+
+/* overal zelfde */
+.about h2 {
+  font-size: 60px;
+}
+
+.about .info p {
+  color: var(--grey);
+}
+
+.about h3 {
+  font-size: 40px;
+}
+
+.about .logo {
+  font-size: 80px;
+}
+
+.about {
+  font-weight: 500;
+  position: relative;
+}
+
+.about .be {
+  font-weight: 700;
+}
+
+.about .logo {
+  position: relative;
+}
+
+.about .logo::before {
+  content: '';
+  position: absolute;
+  top: 45%;
+  left: 3%;
+  width: 180px;
+  height: 12px;
+  background-color: var(--green);
+  z-index: -1;
+}
+
+.about .blok {
+  margin: 10px;
+}
+
+.about .zijtekst {
+  font-size: 20px;
+  rotate: -90deg;
+  position: absolute;
+  right: 0px;
+  top: 20%;
+}
 /* Enes Service - begin */
 
 .services {
