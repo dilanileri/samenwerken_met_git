@@ -173,6 +173,9 @@ body {
   padding: 80px 0;
 }
 
+.portfolio-links span {
+  color: var(--green);
+}
 .portfolio .hoofdtitel {
   font-size: 60px;
   margin: 0;
