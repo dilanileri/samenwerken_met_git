@@ -226,8 +226,68 @@ body {
 /* Enes Service - einde */
 
 /* Natalie testimonial - begin */
+/* X-LARGE SCHERMEN - LG */
+@media (min-width: 1600px) {
+  .container {
+    width: 1000px;
+  }
+
+  .testimonial .banner .foto_links {
+    background-position: center;
+  }
+
+  .col-xl-1 {
+    grid-column: span 1;
+  }
+
+  .col-xl-2 {
+    grid-column: span 2;
+  }
+
+  .col-xl-3 {
+    grid-column: span 3;
+  }
+
+  .col-xl-4 {
+    grid-column: span 4;
+  }
+
+  .col-xl-5 {
+    grid-column: span 5;
+  }
+
+  .col-xl-6 {
+    grid-column: span 6;
+  }
+
+  .col-xl-7 {
+    grid-column: span 7;
+  }
+
+  .col-xl-8 {
+    grid-column: span 8;
+  }
+
+  .col-xl-9 {
+    grid-column: span 9;
+  }
+
+  .col-xl-10 {
+    grid-column: span 10;
+  }
+
+  .col-xl-11 {
+    grid-column: span 11;
+  }
+
+  .col-xl-12 {
+    grid-column: span 12;
+  }
+}
+
 .testimonial {
   position: relative;
+  font-weight: 500;
 }
 
 .testimonial .banner .foto_links {
@@ -249,6 +309,10 @@ body {
   justify-content: center;
 }
 
+.testimonial .inhoud.rechts {
+  margin-left: 10%;
+}
+
 .testimonial .logo {
   font-size: 80px;
 }
@@ -259,20 +323,39 @@ body {
 
 .testimonial h2 {
   font-size: 40px;
+  padding: 40px;
+  position: relative;
+}
+
+.testimonial h2::before {
+  content: '';
+  position: absolute;
+  top: 55%;
+  left: 0;
+  width: 105px;
+  height: 5px;
+  background-color: var(--green);
+  z-index: -1;
 }
 
 .testimonial p {
-  margin: 0 10px 0 10px;
+  margin: 0 10px 20px 10px;
 }
 
 .testimonial .blokje {
   background-color: var(--green);
-  padding: 20%;
+  padding: 40px;
+  text-align: center;
+  width: 160px;
 }
 
 .testimonial .portfolio-btn .punt,
 .testimonial .portfolio-btn .lijn {
   background: var(--bg);
+}
+
+.testimonial .portfolio-btn {
+  margin: 0;
 }
 
 .testimonial .scroll {
@@ -301,5 +384,9 @@ body {
   right: 0px;
   top: 25%;
 }
+
+/* opmerkingen */
+/* service. container --> padding wegdoen? */
+/* services lijn links: left:50% en top 30% en dan services position relatieve? */
 
 /* Natalie testimonial - einde */
