@@ -204,11 +204,6 @@ body {
   max-width: 100%;
   height: auto;
 }
-.portfolio .blok {
-  position: relative;
-  height: 400px;
-  margin: 0;
-}
 
 .portfolio .images .row {
   margin-bottom: 80px;
@@ -217,19 +212,8 @@ body {
 .portfolio .blok img {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: cover;
   display: block;
-}
-
-.portfolio .blok::after {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -90px;
-  height: 90px;
-  background-color: var(--green);
-  transition: 0.4s ease;
-  z-index: 1;
 }
 
 .portfolio .row {
@@ -237,3 +221,8 @@ body {
 }
 
 /* Enes Portfolio - einde */
+
+/* Layout opmerkingen */
+
+/* H2 = 60px */
+/* Buttons overal dezelfde gebruiken */
