@@ -384,3 +384,65 @@ body {
 }
 
 /* Enes Service - einde */
+
+/* Enes Portfolio - begin */
+
+.portfolio .col-lg-12 {
+  text-align: left;
+  max-width: 760px;
+  padding: 80px 0;
+}
+
+.portfolio-links span {
+  color: var(--green);
+}
+.portfolio .hoofdtitel {
+  font-size: 60px;
+  margin: 0;
+}
+
+.portfolio .hoofdtitel span {
+  color: var(--green);
+}
+
+.portfolio .col-lg-12 .p {
+  margin-bottom: 0;
+}
+
+.portfolio-links a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 600;
+  margin-right: 35px;
+}
+
+.portfolio-links {
+  margin-top: 35px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.portfolio .images .row {
+  margin-bottom: 80px;
+}
+
+.portfolio .blok img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.portfolio .row {
+  grid-gap: 0;
+}
+
+/* Enes Portfolio - einde */
+
+/* Layout opmerkingen */
+
+/* H2 = 60px */
+/* Buttons overal dezelfde gebruiken */
